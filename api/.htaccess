@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^execute/(.*)$ api.php?request=$1 [QSA,NC,L]
+</IfModule>

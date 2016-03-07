@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rest API Exam</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="restapi.js"></script>
+  </head>
+</head>
+<body>
+<div class="container" ng-controller="addPerson">
+	<div class="content">
+		<div class="row" style="margin-left: 100px; margin-top:100px;">
+			<div id="create" class="col-lg-12">
+				<h3>Add a Person</h3>
+				<p>First Name</p>
+				<input type="text" class="fname form-control"></input>
+				<p>Last Name</p>
+				<input type="text" class="lname form-control"></input>
+				<p>Contact Number</p>
+				<input type="text" class="contact_no form-control"></input>
+				<p><input type="submit" class="create btn btn-warning" onclick="addPerson()"></input></p>
+			</div>
+		</div>
+		<br/>
+	</div>
+</div>
+
+</body>
+</html>
